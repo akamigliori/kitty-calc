@@ -1,0 +1,35 @@
+/* src/index.css */
+@import "tailwindcss";
+
+/* 1. Cores e Tamanhos Padrão (Raiz do site) */
+:root {
+  /* Cores da Hello Kitty para o Teclado */
+  --keyboard-zindex: 100;
+  --keyboard-background: #fce7f3; /* Fundo rosa clarinho */
+  --keycap-background: #ffffff; /* Botões brancos */
+  --keycap-text: #db2777; /* Letras rosa forte */
+  --keycap-secondary-background: #fbcfe8; /* Botões de ação */
+  --keycap-secondary-text: #9d174d;
+  --keycap-background-hover: #f9a8d4;
+  --keyboard-toolbar-background: #fbcfe8;
+  --keyboard-toolbar-text: #831843;
+
+  /* Tamanhos do teclado para telas de Computador/Tablet */
+  --keyboard-height: 280px;
+  --keycap-height: 3rem;
+  --keycap-font-size: 1.2rem;
+}
+
+/* 2. Regra para Celulares (telas menores que 600px de largura) */
+@media (max-width: 600px) {
+  :root {
+    /* Diminuímos a altura geral do teclado */
+    --keyboard-height: 200px;
+    /* Diminuímos a altura de cada botãozinho */
+    --keycap-height: 2.2rem;
+    /* Deixamos as letras e ícones um pouco menores */
+    --keycap-font-size: 1rem;
+    /* Deixamos a barra superior mais fina */
+    --keyboard-toolbar-height: 35px;
+  }
+}
