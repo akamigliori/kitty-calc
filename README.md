@@ -70,7 +70,7 @@ Este projeto é open-source e pode ser usado livremente. Desenvolvido com dedica
 
 ## Demonstração
 
-[Link para demonstração, se disponível]
+https://akamigliori.github.io/kitty-calc/
 
 ---
 
