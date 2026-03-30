@@ -1,10 +1,27 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>thematized-calc</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="theme-color" content="#fce7f3" />
+    <title>Kitty Calc - Calculadora Hello Kitty</title>
+    <style>
+      /* Previne zoom acidental em inputs no iOS */
+      input, select, textarea, math-field {
+        font-size: 16px !important;
+      }
+      /* Suaviza scroll no mobile */
+      html {
+        -webkit-overflow-scrolling: touch;
+      }
+      body {
+        overscroll-behavior: none;
+        touch-action: manipulation;
+      }
+    </style>
   </head>
   <body>
     <div id="root"></div>

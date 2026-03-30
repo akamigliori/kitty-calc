@@ -24,8 +24,8 @@ Uma calculadora interativa e elegante para cálculos matemáticos avançados, in
 ## Tecnologias utilizadas
 
 - **React**: Biblioteca para construção da interface e gerenciamento de estados.
-- **Tailwind CSS**: Estilização utilitária, responsividade e efeitos de Dark Mode (Glow e Glassmorphism).
-- **Vite**: Ferramenta de build ultrarrápida para o ambiente de desenvolvimento.
+- **Tailwind CSS**: Estilização utilitária, responsividade e efeitos.
+- **Vite**: Ferramenta de build para o ambiente de desenvolvimento.
 - **MathLive**: Editor matemático para entrada de expressões.
 - **Nerdamer**: Biblioteca para cálculos simbólicos (derivadas, integrais, limites).
 - **Function-Plot**: Biblioteca para renderização de gráficos matemáticos.
